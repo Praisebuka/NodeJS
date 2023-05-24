@@ -10,7 +10,7 @@ class Logger extends EventEmitter {
     console.log(message);
 
     // Raising another event
-    this.emit('Logging', {id: 3, url: 'https://www.praisebuka.netlify.app'});
+    this.emit('Logging', {id: 3, url: 'https://thepraise.netlify.app'});
     }
 }
 
