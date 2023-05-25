@@ -2,7 +2,7 @@
 const EventEmitter = require('events');
 
 // Creating a variable 
-let url = 'http://mylogger.io/log';
+let url = 'http://gidicodes.com';
 
 class Logger extends EventEmitter {
     log(message) {
