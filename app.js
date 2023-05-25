@@ -5,7 +5,8 @@ function theFirstFunction(name) {
 
 theFirstFunction('Praise');
 
-// Getting the path of this file which I'm working on
+
+// Getting the path of the required file which I'm working on
 const path = require('path');
 
 let pathObj = path.parse(__filename);
