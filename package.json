@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Praisebuka/NodeJS/issues"
   },
-  "homepage": "https://github.com/Praisebuka/NodeJS#readme"
+  "homepage": "https://github.com/Praisebuka/NodeJS#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }

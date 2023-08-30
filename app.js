@@ -53,6 +53,7 @@ logger.log('message');
 // Working with HTTP module
 const http = require('http');
 
+// Creating server connections
 const server = http.createServer((req, res) => {
     if (req.url === '/') {
         res.write('A New connection has been established.');
